@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "Tie Fighter",
+      "reference": "X11",
+      "quantity": 100,
+      "dollar_price": 164.99,
+      "img": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2005/05/06/1656/116481/star_wars_tie_fighter_with_interior_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1415695_o.jpg"
+    },
+    {
+      "name": "Star Destroyer",
+      "reference": "X11",
+      "quantity": 9,
+      "dollar_price": 999.99,
+      "img": "https://www.geeky-gadgets.com/wp-content/uploads/2017/05/What-Is-the-Price-Of-A-Imperial-Star-Destroyer-1.jpg"
+    },
+    {
+      "name": "Lightsaber",
+      "reference": "X11",
+      "quantity": 7,
+      "dollar_price": 199.99,
+      "img": "https://img.fruugo.com/product/4/41/266112414_max.jpg"
+    },
+    {
+      "name": "Death Star",
+      "reference": "X11",
+      "quantity": 1,
+      "dollar_price": 1000000.0,
+      "img": "https://static.wikia.nocookie.net/starwars/images/7/70/DSI-HDapproach.png"
+    }
+  ]
+}

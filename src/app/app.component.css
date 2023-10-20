@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'starwars';
+    src: url('../assets/Starjout.ttf') format('truetype'),
+}  
+
+@font-face {
+    font-family: 'starwars_void';
+    src: url('../assets/Starjhol.ttf') format('truetype'),
+}  
+
+*{
+    font-family: 'starwars', sans-serif;
+    color: white;
+}
+
+main{
+    background-image: url('https://wallpapercave.com/wp/wp8142732.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom:1px;
+    padding-top:1.5%;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'starwars_void', sans-serif;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+a{
+    text-decoration: none;
+    transition: 300ms;
+    font-size: 20px;
+}
+
+a:hover{
+    color: darkgoldenrod;
+}

@@ -1,0 +1,34 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+}
+
+h2,p{
+    color: white;
+}
+
+p{
+    margin: 2%;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.prod{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+}
+  

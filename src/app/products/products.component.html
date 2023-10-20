@@ -1,0 +1,10 @@
+<h2>Products</h2>
+<div class="prod">
+    <div *ngFor="let product of products | async">
+        <p class="bold">{{product.name}}</p>
+        <p>Reference : {{product.reference}}</p>
+        <p>{{product.quantity}} left</p>
+        <p>{{product.dollar_price}}$</p>
+        <img [src]="product.img" class="product-image" alt="img">
+    </div>
+</div>

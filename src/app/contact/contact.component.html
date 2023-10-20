@@ -1,0 +1,20 @@
+<form [formGroup]="Contact">
+    <h1>Contact</h1>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Stormtrooper42@empire.com" formControlName="email">
+    </div>
+    <div>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" placeholder="ex: Cancel an order" formControlName="subject">
+        <label for="message">Message</label>
+        <textarea type="textarea" name="message" placeholder="Provide details..." formControlName="message"></textarea>
+    </div>
+    <div *ngIf="Contact.invalid && Contact.touched">
+        <p>You haven't completed the form correctly</p>
+    </div>
+    <div *ngIf="formSubmitted">
+        <p>Thank you, the empire will reach to you soon</p>
+    </div>
+    <button type="submit" (click)="onSubmit()" [disabled]="Contact.invalid">Submit</button>
+</form>
