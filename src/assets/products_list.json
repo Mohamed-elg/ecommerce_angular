@@ -2,31 +2,39 @@
   "products": [
     {
       "name": "Tie Fighter",
-      "reference": "X11",
-      "quantity": 100,
+      "reference": "1",
+      "quantity": 750,
       "dollar_price": 164.99,
+      "description": "Prepare to join the dark side with the iconic Tie Fighter. This Imperial starfighter is a menacing presence in the galaxy, with its distinctive twin ion engines and ruthless design. Whether you're a loyal servant of the Empire or a collector, this finely crafted model boasts incredible attention to detail, capturing the essence of the dark forces. Limited stock available, so secure yours today.",
+      "stars": 2.5,
       "img": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2005/05/06/1656/116481/star_wars_tie_fighter_with_interior_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1415695_o.jpg"
     },
     {
       "name": "Star Destroyer",
-      "reference": "X11",
-      "quantity": 9,
+      "reference": "2",
+      "quantity": 23,
       "dollar_price": 999.99,
+      "description": "Dominate the galaxy with the awe-inspiring Imperial Star Destroyer. This symbol of Imperial might is the epitome of power and authority. With meticulous craftsmanship, this model features a sleek, imposing design and exceptional attention to detail. The Star Destroyer is a testament to the Empire's supremacy. Limited stock, so seize the opportunity to command your own Star Destroyer.",
+      "stars": 4,
       "img": "https://www.geeky-gadgets.com/wp-content/uploads/2017/05/What-Is-the-Price-Of-A-Imperial-Star-Destroyer-1.jpg"
     },
     {
       "name": "Lightsaber",
-      "reference": "X11",
-      "quantity": 7,
+      "reference": "3",
+      "quantity": 9,
       "dollar_price": 199.99,
+      "description": "Become a Sith lord with our meticulously designed Lightsaber. Crafted for those who seek to harness the power of the Force, this lightsaber is a symbol of strength. With a sleek hilt and a radiant blade. Embrace the way of the Force and wield the Lightsaber with pride. Limited stock available.",
+      "stars": 3.5,
       "img": "https://img.fruugo.com/product/4/41/266112414_max.jpg"
     },
     {
       "name": "Death Star",
-      "reference": "X11",
+      "reference": "4",
       "quantity": 1,
       "dollar_price": 1000000.0,
-      "img": "https://static.wikia.nocookie.net/starwars/images/7/70/DSI-HDapproach.png"
+      "description": "Behold the ultimate weapon of mass destruction – the Death Star. A testament to the Empire's unrelenting power, this colossal space station can obliterate entire planets with a single superlaser blast. It's a rare opportunity to own a piece of Imperial history.",
+      "stars": 5,
+      "img": "https://hips.hearstapps.com/popularmechanics/assets/17/04/1485372460-death.jpeg"
     }
   ]
 }

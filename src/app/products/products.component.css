@@ -1,5 +1,6 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 h2{
@@ -13,6 +14,14 @@ h2,p{
 
 p{
     margin: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkgoldenrod;
 }
 
 .bold{
@@ -30,5 +39,9 @@ p{
 .product-image {
     width: 100px;
     height: 100px;
+}
+
+.stars{
+    color: gold;
 }
   

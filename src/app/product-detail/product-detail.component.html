@@ -1,0 +1,19 @@
+<div *ngIf="productDetail">
+    <h1>{{productDetail.name}}</h1>
+    <p class="stars">{{printStar(productDetail.stars)}}</p>
+    <div class="detail">
+        <img src="{{productDetail.img}}" alt="img">
+        <div class="text">
+            <h3 class="price">{{productDetail.dollar_price}}$</h3>
+            <h3>free delivery !</h3>
+            <h3>{{productDetail.quantity}} left</h3>
+            <p>{{productDetail.description}}</p>
+            <button class="buy">Buy now</button>
+            <button class="cart">Add to cart</button>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="!productDetail" class="void">
+    <img src="https://www.chinalawtranslate.com/wp-content/uploads/2020/07/storm-troopers.png" alt="404">
+</div>
