@@ -1,1 +1,10 @@
-<p>users works!</p>
+<h2>Users</h2>
+<div class="users">
+    <div *ngFor="let user of users | async">
+        <div class="user"><img [src]="user.img" class="user-image" alt="User Image">
+            <p class="name">{{user.name}}</p>
+            <p class="title">{{user.title}}</p>
+            <p>{{user.affiliation}} : {{user.rank}}</p>
+        </div>
+    </div>
+</div>
