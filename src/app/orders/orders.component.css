@@ -1,3 +1,45 @@
 *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+h2,p{
+    color: white;
+}
+
+h4{
+    margin-left: 5%;
+}
+
+.content{
+    margin-left: 30%;
+    margin-right:30%;
+    align-items: center;
+    justify-items: center;
+}
+
+.shippingInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.shippingInfo{
+    display: flex;
+}
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.product img{
+    width: 150px;
 }

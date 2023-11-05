@@ -1,0 +1,50 @@
+{
+    "orders": [
+        {
+            "orderNumber": 1,
+            "customer": "Darth Vader",
+            "products": [
+                {
+                    "product": "Tie Fighter",
+                    "productImg": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2005/05/06/1656/116481/star_wars_tie_fighter_with_interior_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1415695_o.jpg",
+                    "quantity": 1
+                },
+                {
+                    "product": "Death Star",
+                    "productImg": "https://hips.hearstapps.com/popularmechanics/assets/17/04/1485372460-death.jpeg",
+                    "quantity": 1
+                }
+            ],
+            "address":"Mustafar"
+        },
+        {
+            "orderNumber": 2,
+            "customer": "Emperor Palpatine",
+            "products": [
+                {
+                    "product": "Star Destroyer",
+                    "productImg": "https://www.geeky-gadgets.com/wp-content/uploads/2017/05/What-Is-the-Price-Of-A-Imperial-Star-Destroyer-1.jpg",
+                    "quantity": 3
+                }
+            ],
+            "address":"Naboo"
+        },
+        {
+            "orderNumber": 3,
+            "customer": "Nute Gunray",
+            "products": [
+                {
+                    "product": "Tie Fighter",
+                    "productImg": "https://netrinoimages.s3.eu-west-2.amazonaws.com/2005/05/06/1656/116481/star_wars_tie_fighter_with_interior_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_1415695_o.jpg",
+                    "quantity": 3
+                },
+                {
+                    "product": "Lightsaber",
+                    "productImg": "https://img.fruugo.com/product/4/41/266112414_max.jpg",
+                    "quantity": 1
+                }
+            ],
+            "address":"Naboo"
+        }
+    ]
+}

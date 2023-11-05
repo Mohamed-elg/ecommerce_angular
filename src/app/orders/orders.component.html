@@ -1,1 +1,16 @@
-<p>orders works!</p>
+<div *ngFor="let order of orders | async" class="content">
+    <h3>Order Number: {{ order.orderNumber }}</h3>
+    <div class="shippingInfo">
+        <p>Customer: {{ order.customer }}</p>
+        <p>Address: {{ order.address }}</p>
+    </div>
+    <h4>Products</h4>
+    <div *ngFor="let product of order.products">
+        <div class="product">
+            <img [src]="product.productImg" alt="{{ product.product }}" >
+            <p>{{ product.product }}</p>
+            <p>Quantity: {{ product.quantity }}</p>
+        </div>
+
+    </div>
+</div>
