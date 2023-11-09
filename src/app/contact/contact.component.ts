@@ -21,7 +21,10 @@ export class ContactComponent {
 
   onSubmit() {
     if (this.Contact.valid) {
-      console.log(this.Contact.value);
+      const email = this.Contact.get('email')?.value;
+      const subject = this.Contact.get('subject')?.value;
+      const message = this.Contact.get('message')?.value;
+      alert(`Email: ${email}\nSubject: ${subject}\nMessage: ${message}`);
       this.formSubmitted = true;
     }
   }
